@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background: #fafafa;
+}
+.header {
+    height: 100px;
+    background: rgba(0, 0, 0, 0.3);
+}
+.inner {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    line-height: 100px;
+}
+.logo {
+    float: left;
+}
+.logo img {
+    border-radius: 50%;
+}
+.nav {
+    float: right;
+}
+.nav li{
+    float: left;
+    margin: auto 30px;
+}
+.nav li a {
+    color: #333;
+
+}
+.nav li a:hover {
+    color: #2288f6;
+}
